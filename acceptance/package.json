@@ -5,7 +5,8 @@
     "/features"
   ],
   "scripts": {
-    "start": "npx cucumber-js --format progress"
+    "start": "npx cucumber-js --format progress",
+    "work": "cucumber-js --fail-fast --tags @work"
   },
   "dependencies": {
     "axe-puppeteer": "^1.1.1",
@@ -13,7 +14,7 @@
     "cucumber": "^6.0.5",
     "dotenv": "^8.6.0",
     "pixelmatch": "^5.2.1",
-    "puppeteer": "^8.0.0"
+    "puppeteer": "^13.1.2"
   },
   "puppeteerOptions": {
     "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true",
